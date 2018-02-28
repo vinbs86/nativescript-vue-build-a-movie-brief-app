@@ -1,0 +1,40 @@
+@import 'nativescript-theme-core/css/core.light.css';
+
+/* Your CSS goes here */
+.home-coming-title {
+  height: 40; 
+  font-size: 16;
+}
+
+
+.coming-list-wrapper {
+  height: 220;
+  margin-bottom: 20;
+}
+.coming-item {
+  height: 220
+}
+.coming-Font {
+  font-size: 14;
+  font-weight: bold;
+  margin-left: 10;
+}
+.coming-image {
+  width: 140;
+  height: 180;
+  margin-bottom: 10 
+}
+
+
+.col-list-image {
+  height: 100;
+  width: 80;
+  margin-left: 10;
+  margin-right: 6;
+}
+.col-list-wrapper {
+  height: 120;
+  padding: 10 10 10 0;
+  border-bottom-width: 1;
+  border-bottom-color: rgba(155,155,155,0.3)
+}

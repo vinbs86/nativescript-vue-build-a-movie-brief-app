@@ -1,0 +1,101 @@
+{
+  "_from": "nativescript-gif",
+  "_id": "nativescript-gif@3.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-qWwsVPeiPqdrhOCrmn0S2P/Rh2A=",
+  "_location": "/nativescript-gif",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-gif",
+    "name": "nativescript-gif",
+    "escapedName": "nativescript-gif",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/nativescript-gif/download/nativescript-gif-3.1.1.tgz",
+  "_shasum": "a96c2c54f7a23ea76b84e0ab9a7d12d8ffd18760",
+  "_spec": "nativescript-gif",
+  "_where": "E:\\documents\\holzNetworkCollege\\nativeScript\\my-app",
+  "author": {
+    "name": "Brad Martin",
+    "email": "bradwaynemartin@gmail.com",
+    "url": "https://github.com/bradmartin"
+  },
+  "bugs": {
+    "url": "https://github.com/bradmartin/nativescript-gif/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Nathanael Anderson",
+      "email": "nathan@master-technology.com",
+      "url": "https://github.com/NathanaelA"
+    },
+    {
+      "name": "Nathan Walker",
+      "email": "walkerrunpdx@gmail.com",
+      "url": "https://github.com/NathanWalker"
+    },
+    {
+      "name": "Ophir Stern",
+      "email": "souly01@gmail.com",
+      "url": "https://github.com/souly1"
+    },
+    {
+      "name": "slsumathi",
+      "url": "https://github.com/slsumathi"
+    },
+    {
+      "name": "Amila Rukshan",
+      "email": "amilarukshan11@gamil.com",
+      "url": "https://github.com/AmilaRukshan"
+    }
+  ],
+  "deprecated": false,
+  "description": "NativeScript plugin to use .gifs",
+  "devDependencies": {
+    "tns-core-modules": "^3.0.0",
+    "typescript": "^2.2.2"
+  },
+  "homepage": "https://github.com/bradmartin/nativescript-gif",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS",
+    "gif",
+    "bradmartin"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/bradmartin/nativescript-gif/blob/master/LICENSE"
+  },
+  "main": "gif",
+  "name": "nativescript-gif",
+  "nativescript": {
+    "platforms": {
+      "android": "3.0.0",
+      "ios": "3.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradmartin/nativescript-gif.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo; cd demo; tns run android",
+    "demo.ios": "npm run preparedemo; cd demo; tns emulate ios",
+    "preparedemo": "npm run build; cd demo; tns plugin remove nativescript-gif; tns plugin add ..; tns install",
+    "setup": "cd demo; npm install; cd ..; npm run build; cd demo; tns plugin add ..; cd .."
+  },
+  "typings": "gif.d.ts",
+  "version": "3.1.1"
+}

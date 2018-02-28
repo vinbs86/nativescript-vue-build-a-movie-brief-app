@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\documents\\holzNetworkCollege\\nativeScript\\my-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\background.png",
+        "source": "E:\\documents\\holzNetworkCollege\\nativeScript\\my-app\\platforms\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\background.png"
+    },
+    {
+        "merged": "E:\\documents\\holzNetworkCollege\\nativeScript\\my-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\icon.png",
+        "source": "E:\\documents\\holzNetworkCollege\\nativeScript\\my-app\\platforms\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\documents\\holzNetworkCollege\\nativeScript\\my-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\logo.png",
+        "source": "E:\\documents\\holzNetworkCollege\\nativeScript\\my-app\\platforms\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
+    }
+]
