@@ -4,6 +4,6 @@ using nativescript-vue to build a simple movie-brief app 使用nativescript-vue�
 本项目所以Template为[nativescript-vue-template](https://github.com/nativescript-vue/nativescript-vue-template)
 
 ```
-npm install  //安装依赖
-tns run android  //运行项目
+npm install                 //安装依赖
+tns run android             //运行项目
 ```
