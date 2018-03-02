@@ -9,7 +9,7 @@ module.exports = Vue.component('col-list', {
         <stack-layout>
           <label style="font-size: 20; font-weight: bold" :text="item.title" />
           <label>{{item.year}}/{{item.genres[0]}},{{item.genres[1]}}</label>
-          <label>{{item.casts[0].name}}/{{item.casts[1].name}}</label>
+          <label v-if="item.casts.length">{{item.casts[0].name}}/{{item.casts[1].name}}</label>
         </stack-layout>
       </stack-layout>
     </stack-layout>
